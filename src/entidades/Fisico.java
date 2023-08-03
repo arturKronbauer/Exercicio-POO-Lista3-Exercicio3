@@ -26,4 +26,6 @@ public class Fisico extends Contribuinte {
 			return getRendimentoAnual() * 0.25 - despesaSaude * 0.5;
 		}
 	}
+	
 }
+

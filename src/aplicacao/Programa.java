@@ -48,6 +48,7 @@ public class Programa {
 			double valorImposto = c.imposto();
 			System.out.println(c.getNome() + ": R$ " + String.format("%.2f", valorImposto));
 			soma += valorImposto;
+			
 		}
 
 		System.out.println();
